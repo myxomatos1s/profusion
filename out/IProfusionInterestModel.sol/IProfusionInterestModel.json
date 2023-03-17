@@ -1,0 +1,456 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "prevRate",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalAvailable",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalLoan",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "timePast",
+          "type": "uint256"
+        }
+      ],
+      "name": "getNextInterestRate",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "initialRate",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "getNextInterestRate(uint256,uint256,uint256,uint256)": "fae7f00d",
+    "initialRate()": "9e51051f"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"prevRate\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"totalAvailable\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"totalLoan\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"timePast\",\"type\":\"uint256\"}],\"name\":\"getNextInterestRate\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"initialRate\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"getNextInterestRate(uint256,uint256,uint256,uint256)\":{\"details\":\"Returns the next interest rate for the market.\",\"params\":{\"prevRate\":\"The current interest rate.\",\"timePast\":\"The time past since last interest rate rebase in seconds.\",\"totalAvailable\":\"The current available liquidity.\",\"totalLoan\":\"The current outstanding loan.\"}},\"initialRate()\":{\"details\":\"Returns the initial interest rate per year (times 1e18).\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/interfaces/IProfusionInterestModel.sol\":\"IProfusionInterestModel\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/\",\":src/=src/\"]},\"sources\":{\"src/interfaces/IProfusionInterestModel.sol\":{\"keccak256\":\"0x5a548d46d308032ccd9280775ace98b94f84697a301aaa31a08172a404005b8b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://37467711900f75fea3ba069b3ce516de68a8322611113a6a76ca79dd45c6759f\",\"dweb:/ipfs/QmRNadDUuZJtPp35hkyjhs9riJCeCoynyFhJUT9PWjSg9G\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "prevRate",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "totalAvailable",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "totalLoan",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "timePast",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getNextInterestRate",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "initialRate",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {
+          "getNextInterestRate(uint256,uint256,uint256,uint256)": {
+            "details": "Returns the next interest rate for the market.",
+            "params": {
+              "prevRate": "The current interest rate.",
+              "timePast": "The time past since last interest rate rebase in seconds.",
+              "totalAvailable": "The current available liquidity.",
+              "totalLoan": "The current outstanding loan."
+            }
+          },
+          "initialRate()": {
+            "details": "Returns the initial interest rate per year (times 1e18)."
+          }
+        },
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/",
+        ":src/=src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/interfaces/IProfusionInterestModel.sol": "IProfusionInterestModel"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/interfaces/IProfusionInterestModel.sol": {
+        "keccak256": "0x5a548d46d308032ccd9280775ace98b94f84697a301aaa31a08172a404005b8b",
+        "urls": [
+          "bzz-raw://37467711900f75fea3ba069b3ce516de68a8322611113a6a76ca79dd45c6759f",
+          "dweb:/ipfs/QmRNadDUuZJtPp35hkyjhs9riJCeCoynyFhJUT9PWjSg9G"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/interfaces/IProfusionInterestModel.sol",
+    "id": 13226,
+    "exportedSymbols": {
+      "IProfusionInterestModel": [
+        13225
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:637:54",
+    "nodes": [
+      {
+        "id": 13204,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:54",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".18"
+        ]
+      },
+      {
+        "id": 13225,
+        "nodeType": "ContractDefinition",
+        "src": "58:610:54",
+        "nodes": [
+          {
+            "id": 13210,
+            "nodeType": "FunctionDefinition",
+            "src": "164:52:54",
+            "nodes": [],
+            "documentation": {
+              "id": 13205,
+              "nodeType": "StructuredDocumentation",
+              "src": "96:65:54",
+              "text": "@dev Returns the initial interest rate per year (times 1e18)."
+            },
+            "functionSelector": "9e51051f",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "initialRate",
+            "nameLocation": "173:11:54",
+            "parameters": {
+              "id": 13206,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "184:2:54"
+            },
+            "returnParameters": {
+              "id": 13209,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13208,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13210,
+                  "src": "210:4:54",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 13207,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "210:4:54",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "209:6:54"
+            },
+            "scope": 13225,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 13224,
+            "nodeType": "FunctionDefinition",
+            "src": "521:145:54",
+            "nodes": [],
+            "documentation": {
+              "id": 13211,
+              "nodeType": "StructuredDocumentation",
+              "src": "220:298:54",
+              "text": "@dev Returns the next interest rate for the market.\n @param prevRate The current interest rate.\n @param totalAvailable The current available liquidity.\n @param totalLoan The current outstanding loan.\n @param timePast The time past since last interest rate rebase in seconds."
+            },
+            "functionSelector": "fae7f00d",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNextInterestRate",
+            "nameLocation": "530:19:54",
+            "parameters": {
+              "id": 13220,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13213,
+                  "mutability": "mutable",
+                  "name": "prevRate",
+                  "nameLocation": "560:8:54",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13224,
+                  "src": "555:13:54",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 13212,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "555:4:54",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 13215,
+                  "mutability": "mutable",
+                  "name": "totalAvailable",
+                  "nameLocation": "579:14:54",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13224,
+                  "src": "574:19:54",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 13214,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "574:4:54",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 13217,
+                  "mutability": "mutable",
+                  "name": "totalLoan",
+                  "nameLocation": "604:9:54",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13224,
+                  "src": "599:14:54",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 13216,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "599:4:54",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 13219,
+                  "mutability": "mutable",
+                  "name": "timePast",
+                  "nameLocation": "624:8:54",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13224,
+                  "src": "619:13:54",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 13218,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "619:4:54",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "549:87:54"
+            },
+            "returnParameters": {
+              "id": 13223,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13222,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13224,
+                  "src": "660:4:54",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 13221,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "660:4:54",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "659:6:54"
+            },
+            "scope": 13225,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IProfusionInterestModel",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          13225
+        ],
+        "name": "IProfusionInterestModel",
+        "nameLocation": "68:23:54",
+        "scope": 13226,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 54
+}

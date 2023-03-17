@@ -1,0 +1,1098 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "getCollFactor",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "getCollMaxAmount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "getKillBountyRate",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "getLiquidationLTV",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "getRiskLevel",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "getSafetyLTV",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "reserveBeneficiary",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "reserveRate",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "getCollFactor(address)": "90ddf2b2",
+    "getCollMaxAmount(address)": "665e2e53",
+    "getKillBountyRate(address)": "73e0835a",
+    "getLiquidationLTV(address)": "eb94ee10",
+    "getRiskLevel(address)": "1615f2d4",
+    "getSafetyLTV(address)": "37ea6093",
+    "reserveBeneficiary()": "914870eb",
+    "reserveRate()": "58d7bf80"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"}],\"name\":\"getCollFactor\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"}],\"name\":\"getCollMaxAmount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"}],\"name\":\"getKillBountyRate\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"}],\"name\":\"getLiquidationLTV\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"}],\"name\":\"getRiskLevel\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"}],\"name\":\"getSafetyLTV\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"reserveBeneficiary\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"reserveRate\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"getCollFactor(address)\":{\"details\":\"Returns the ratio of which the given token consider for collateral value.\"},\"getCollMaxAmount(address)\":{\"details\":\"Returns the max amount of collateral to accept globally.\"},\"getKillBountyRate(address)\":{\"details\":\"Returns the bonus incentive reward factor for liquidators.\"},\"getLiquidationLTV(address)\":{\"details\":\"Returns max ltv of collateral / debt to liquidate a position of the given token.\"},\"getRiskLevel(address)\":{\"details\":\"Returns the risk level for the given asset.\"},\"getSafetyLTV(address)\":{\"details\":\"Returns max ltv of collateral / debt to allow a new position.\"},\"reserveBeneficiary()\":{\"details\":\"Returns the beneficiary to receive a portion interest rate for the protocol.\"},\"reserveRate()\":{\"details\":\"Returns the rate of interest collected to be distributed to the protocol reserve.\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/interfaces/IProfusionConfig.sol\":\"IProfusionConfig\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/\",\":src/=src/\"]},\"sources\":{\"src/interfaces/IProfusionConfig.sol\":{\"keccak256\":\"0x2c861dd5029724b27dd50818f59632dad6f75923eb91a63874f51dc1a2b45fbc\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e10a6ef6aceb381e0d61becd396bbea1229a317b5b559ba5635984543477d615\",\"dweb:/ipfs/QmWkTtWtFsDmA5mUFWdyhcRi1ySgze9JViZQKoMK2XfZy8\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "token",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getCollFactor",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "token",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getCollMaxAmount",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "token",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getKillBountyRate",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "token",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getLiquidationLTV",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "token",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getRiskLevel",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "token",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getSafetyLTV",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "reserveBeneficiary",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "reserveRate",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {
+          "getCollFactor(address)": {
+            "details": "Returns the ratio of which the given token consider for collateral value."
+          },
+          "getCollMaxAmount(address)": {
+            "details": "Returns the max amount of collateral to accept globally."
+          },
+          "getKillBountyRate(address)": {
+            "details": "Returns the bonus incentive reward factor for liquidators."
+          },
+          "getLiquidationLTV(address)": {
+            "details": "Returns max ltv of collateral / debt to liquidate a position of the given token."
+          },
+          "getRiskLevel(address)": {
+            "details": "Returns the risk level for the given asset."
+          },
+          "getSafetyLTV(address)": {
+            "details": "Returns max ltv of collateral / debt to allow a new position."
+          },
+          "reserveBeneficiary()": {
+            "details": "Returns the beneficiary to receive a portion interest rate for the protocol."
+          },
+          "reserveRate()": {
+            "details": "Returns the rate of interest collected to be distributed to the protocol reserve."
+          }
+        },
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/",
+        ":src/=src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/interfaces/IProfusionConfig.sol": "IProfusionConfig"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/interfaces/IProfusionConfig.sol": {
+        "keccak256": "0x2c861dd5029724b27dd50818f59632dad6f75923eb91a63874f51dc1a2b45fbc",
+        "urls": [
+          "bzz-raw://e10a6ef6aceb381e0d61becd396bbea1229a317b5b559ba5635984543477d615",
+          "dweb:/ipfs/QmWkTtWtFsDmA5mUFWdyhcRi1ySgze9JViZQKoMK2XfZy8"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/interfaces/IProfusionConfig.sol",
+    "id": 13203,
+    "exportedSymbols": {
+      "IProfusionConfig": [
+        13202
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:1237:53",
+    "nodes": [
+      {
+        "id": 13141,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:53",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".18"
+        ]
+      },
+      {
+        "id": 13202,
+        "nodeType": "ContractDefinition",
+        "src": "58:1210:53",
+        "nodes": [
+          {
+            "id": 13149,
+            "nodeType": "FunctionDefinition",
+            "src": "144:66:53",
+            "nodes": [],
+            "documentation": {
+              "id": 13142,
+              "nodeType": "StructuredDocumentation",
+              "src": "89:52:53",
+              "text": "@dev Returns the risk level for the given asset."
+            },
+            "functionSelector": "1615f2d4",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getRiskLevel",
+            "nameLocation": "153:12:53",
+            "parameters": {
+              "id": 13145,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13144,
+                  "mutability": "mutable",
+                  "name": "token",
+                  "nameLocation": "174:5:53",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13149,
+                  "src": "166:13:53",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 13143,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "166:7:53",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "165:15:53"
+            },
+            "returnParameters": {
+              "id": 13148,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13147,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13149,
+                  "src": "204:4:53",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 13146,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "204:4:53",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "203:6:53"
+            },
+            "scope": 13202,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 13155,
+            "nodeType": "FunctionDefinition",
+            "src": "307:52:53",
+            "nodes": [],
+            "documentation": {
+              "id": 13150,
+              "nodeType": "StructuredDocumentation",
+              "src": "214:90:53",
+              "text": "@dev Returns the rate of interest collected to be distributed to the protocol reserve."
+            },
+            "functionSelector": "58d7bf80",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "reserveRate",
+            "nameLocation": "316:11:53",
+            "parameters": {
+              "id": 13151,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "327:2:53"
+            },
+            "returnParameters": {
+              "id": 13154,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13153,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13155,
+                  "src": "353:4:53",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 13152,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "353:4:53",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "352:6:53"
+            },
+            "scope": 13202,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 13161,
+            "nodeType": "FunctionDefinition",
+            "src": "451:62:53",
+            "nodes": [],
+            "documentation": {
+              "id": 13156,
+              "nodeType": "StructuredDocumentation",
+              "src": "363:85:53",
+              "text": "@dev Returns the beneficiary to receive a portion interest rate for the protocol."
+            },
+            "functionSelector": "914870eb",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "reserveBeneficiary",
+            "nameLocation": "460:18:53",
+            "parameters": {
+              "id": 13157,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "478:2:53"
+            },
+            "returnParameters": {
+              "id": 13160,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13159,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13161,
+                  "src": "504:7:53",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 13158,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "504:7:53",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "503:9:53"
+            },
+            "scope": 13202,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 13169,
+            "nodeType": "FunctionDefinition",
+            "src": "602:67:53",
+            "nodes": [],
+            "documentation": {
+              "id": 13162,
+              "nodeType": "StructuredDocumentation",
+              "src": "517:82:53",
+              "text": "@dev Returns the ratio of which the given token consider for collateral value."
+            },
+            "functionSelector": "90ddf2b2",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getCollFactor",
+            "nameLocation": "611:13:53",
+            "parameters": {
+              "id": 13165,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13164,
+                  "mutability": "mutable",
+                  "name": "token",
+                  "nameLocation": "633:5:53",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13169,
+                  "src": "625:13:53",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 13163,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "625:7:53",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "624:15:53"
+            },
+            "returnParameters": {
+              "id": 13168,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13167,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13169,
+                  "src": "663:4:53",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 13166,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "663:4:53",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "662:6:53"
+            },
+            "scope": 13202,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 13177,
+            "nodeType": "FunctionDefinition",
+            "src": "741:70:53",
+            "nodes": [],
+            "documentation": {
+              "id": 13170,
+              "nodeType": "StructuredDocumentation",
+              "src": "673:65:53",
+              "text": "@dev Returns the max amount of collateral to accept globally."
+            },
+            "functionSelector": "665e2e53",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getCollMaxAmount",
+            "nameLocation": "750:16:53",
+            "parameters": {
+              "id": 13173,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13172,
+                  "mutability": "mutable",
+                  "name": "token",
+                  "nameLocation": "775:5:53",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13177,
+                  "src": "767:13:53",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 13171,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "767:7:53",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "766:15:53"
+            },
+            "returnParameters": {
+              "id": 13176,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13175,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13177,
+                  "src": "805:4:53",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 13174,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "805:4:53",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "804:6:53"
+            },
+            "scope": 13202,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 13185,
+            "nodeType": "FunctionDefinition",
+            "src": "888:66:53",
+            "nodes": [],
+            "documentation": {
+              "id": 13178,
+              "nodeType": "StructuredDocumentation",
+              "src": "815:70:53",
+              "text": "@dev Returns max ltv of collateral / debt to allow a new position."
+            },
+            "functionSelector": "37ea6093",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getSafetyLTV",
+            "nameLocation": "897:12:53",
+            "parameters": {
+              "id": 13181,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13180,
+                  "mutability": "mutable",
+                  "name": "token",
+                  "nameLocation": "918:5:53",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13185,
+                  "src": "910:13:53",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 13179,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "910:7:53",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "909:15:53"
+            },
+            "returnParameters": {
+              "id": 13184,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13183,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13185,
+                  "src": "948:4:53",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 13182,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "948:4:53",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "947:6:53"
+            },
+            "scope": 13202,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 13193,
+            "nodeType": "FunctionDefinition",
+            "src": "1050:71:53",
+            "nodes": [],
+            "documentation": {
+              "id": 13186,
+              "nodeType": "StructuredDocumentation",
+              "src": "958:89:53",
+              "text": "@dev Returns max ltv of collateral / debt to liquidate a position of the given token."
+            },
+            "functionSelector": "eb94ee10",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getLiquidationLTV",
+            "nameLocation": "1059:17:53",
+            "parameters": {
+              "id": 13189,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13188,
+                  "mutability": "mutable",
+                  "name": "token",
+                  "nameLocation": "1085:5:53",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13193,
+                  "src": "1077:13:53",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 13187,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1077:7:53",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1076:15:53"
+            },
+            "returnParameters": {
+              "id": 13192,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13191,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13193,
+                  "src": "1115:4:53",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 13190,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1115:4:53",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1114:6:53"
+            },
+            "scope": 13202,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 13201,
+            "nodeType": "FunctionDefinition",
+            "src": "1195:71:53",
+            "nodes": [],
+            "documentation": {
+              "id": 13194,
+              "nodeType": "StructuredDocumentation",
+              "src": "1125:67:53",
+              "text": "@dev Returns the bonus incentive reward factor for liquidators."
+            },
+            "functionSelector": "73e0835a",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getKillBountyRate",
+            "nameLocation": "1204:17:53",
+            "parameters": {
+              "id": 13197,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13196,
+                  "mutability": "mutable",
+                  "name": "token",
+                  "nameLocation": "1230:5:53",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13201,
+                  "src": "1222:13:53",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 13195,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1222:7:53",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1221:15:53"
+            },
+            "returnParameters": {
+              "id": 13200,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13199,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13201,
+                  "src": "1260:4:53",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 13198,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1260:4:53",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1259:6:53"
+            },
+            "scope": 13202,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IProfusionConfig",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          13202
+        ],
+        "name": "IProfusionConfig",
+        "nameLocation": "68:16:53",
+        "scope": 13203,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 53
+}

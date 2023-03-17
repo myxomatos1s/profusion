@@ -1,0 +1,248 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "getETHPx",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "getETHPx(address)": "ab9aadfe"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"}],\"name\":\"getETHPx\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"getETHPx(address)\":{\"details\":\"Returns the price in terms of ETH for the given token, multiplifed by 2**112.\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/interfaces/IExternalOracle.sol\":\"IExternalOracle\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/\",\":src/=src/\"]},\"sources\":{\"src/interfaces/IExternalOracle.sol\":{\"keccak256\":\"0x03a07541ba11fb0053ef951c2a89c5eedc55711f5ee69d3a72e76f798a665b79\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8862dc24dd36430e89c9353bd305b5b719f888263e5be042ebff0ec3871022d5\",\"dweb:/ipfs/Qmd5E13JCyHzzRDks5XWAurjZWnSsHuweDa1qGz2UaCVbc\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "token",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getETHPx",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {
+          "getETHPx(address)": {
+            "details": "Returns the price in terms of ETH for the given token, multiplifed by 2**112."
+          }
+        },
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/",
+        ":src/=src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/interfaces/IExternalOracle.sol": "IExternalOracle"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/interfaces/IExternalOracle.sol": {
+        "keccak256": "0x03a07541ba11fb0053ef951c2a89c5eedc55711f5ee69d3a72e76f798a665b79",
+        "urls": [
+          "bzz-raw://8862dc24dd36430e89c9353bd305b5b719f888263e5be042ebff0ec3871022d5",
+          "dweb:/ipfs/Qmd5E13JCyHzzRDks5XWAurjZWnSsHuweDa1qGz2UaCVbc"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/interfaces/IExternalOracle.sol",
+    "id": 12807,
+    "exportedSymbols": {
+      "IExternalOracle": [
+        12806
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:210:48",
+    "nodes": [
+      {
+        "id": 12797,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:48",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".18"
+        ]
+      },
+      {
+        "id": 12806,
+        "nodeType": "ContractDefinition",
+        "src": "58:183:48",
+        "nodes": [
+          {
+            "id": 12805,
+            "nodeType": "FunctionDefinition",
+            "src": "177:62:48",
+            "nodes": [],
+            "documentation": {
+              "id": 12798,
+              "nodeType": "StructuredDocumentation",
+              "src": "88:86:48",
+              "text": "@dev Returns the price in terms of ETH for the given token, multiplifed by 2**112."
+            },
+            "functionSelector": "ab9aadfe",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getETHPx",
+            "nameLocation": "186:8:48",
+            "parameters": {
+              "id": 12801,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 12800,
+                  "mutability": "mutable",
+                  "name": "token",
+                  "nameLocation": "203:5:48",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 12805,
+                  "src": "195:13:48",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 12799,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "195:7:48",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "194:15:48"
+            },
+            "returnParameters": {
+              "id": 12804,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 12803,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 12805,
+                  "src": "233:4:48",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 12802,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "233:4:48",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "232:6:48"
+            },
+            "scope": 12806,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IExternalOracle",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          12806
+        ],
+        "name": "IExternalOracle",
+        "nameLocation": "68:15:48",
+        "scope": 12807,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 48
+}
